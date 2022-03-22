@@ -93,7 +93,7 @@
           "type": "group",
           "settings": {
             "title": "Filter by size",
-            "group_tags": "Small, Medium, Large, Long, Runner"
+            "group_tags": "Small, Medium, Large, Long, Runner, Triangle"
           }
         },
         "filters": {
