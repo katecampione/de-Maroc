@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "16464412605fff4ffd": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "WHAT IS DIAFA DE MAROC?",
+        "text": "<p>Diafa de Maroc is a private, personalized shopping experience, embodying the warmth of Moroccan culture. Inspired by the incredible hospitality of the North African region, Emmy is imbuing her Los Angeles Studio with the same warmth and welcome she experienced on her travels through Morocco. So let’s slow down. Sip on some aromatic mint tea, and sample a delectable spread of traditional Moroccan food as we explore the collection. <\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1645737928c3bed2c5": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tild6237-3661-4132-b330-633539366139__jkk.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "Introducing",
+        "title": "Image with text overlay",
+        "richtext": "<p>This area is used to describe your store.<\/p>",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "View products",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1646441111442a9a50": {
+      "type": "section-double",
+      "blocks": {
+        "1646441111759ece3c-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p><strong>THE DIAFA DE MAROC EXPERIENCE<\/strong><\/p><p>From the moment you step through the door of our LA studio you will be transported into the luxurious world of Moroccan diafa. Shop in comfort and style and tap into Emmy’s expert knowledge about each individual piece to find your soul mate. <\/p><p>As you explore our collection, we invite you to slow down and immerse yourself in Moroccan culture with a delicious spread of food, drinks, and music.<br\/><\/p><p>Take your time as you explore our eclectic collection of vintage Moroccan rugs. Discover, touch, and connect with the designs that speak to you, and learn more about the unique backstory behind each hand woven piece.<\/p><p>Once you've settled on your perfect rug, we’ll get to work cleaning it and preparing it for your home. When it’s ready, your rug will either be shipped or personally delivered to your chosen address. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "1646441111759ece3c-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0Y6A0090.jpg",
+            "bg_position": "center-bottom",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "1646441111759ece3c-0",
+        "1646441111759ece3c-1"
+      ],
+      "settings": {
+        "height": "use_screen_full",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    }
+  },
+  "order": [
+    "16464412605fff4ffd",
+    "main",
+    "1645737928c3bed2c5",
+    "1646441111442a9a50"
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rug_hero.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_three_quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#ffffff",
+        "kicker": "",
+        "title": "de Maroc",
+        "richtext": "<p><strong>The world's most exclusive collection of rare vintage Moroccan wool rugs handcrafted by the country's finest artisans.<\/strong><\/p>",
+        "text_align": "align--bottom-center",
+        "text_color": "text--black",
+        "link_text": "Shop NOw",
+        "link": "shopify:\/\/collections\/all",
+        "button_color": "btn--black",
+        "button_style": "btn"
+      }
+    },
+    "1646078890704e4d20": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "<p>Each of our hand-picked rugs has been meticulously crafted by artisans using natural fibers and dyes unique to that region. Steeped in the artistry and heritage that has made Moroccan rugs coveted world-over, these pieces are a testament to the skill and creativity of the women who made them. And because we specialize in unearthing rare vintage and antique rugs, every item in our collection has a unique story to tell. <\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "tabs": {
+      "type": "section-collection-tabs",
+      "blocks": {
+        "tab-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "madaya",
+            "title": "Madaya"
+          }
+        },
+        "tab-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "noor",
+            "title": "Noor"
+          }
+        },
+        "b84c14b2-28b7-4aaf-a930-3bbcaaabfb3c": {
+          "type": "collection",
+          "settings": {
+            "collection": "sura",
+            "title": "Sura"
+          }
+        },
+        "31a51d01-dda4-4930-a2b0-82899e58f421": {
+          "type": "collection",
+          "settings": {
+            "collection": "lalla",
+            "title": "Lalla"
+          }
+        },
+        "f0622d75-9fe8-4fc1-8166-f8084b678713": {
+          "type": "collection",
+          "settings": {
+            "collection": "tafsut",
+            "title": "Tafsut"
+          }
+        }
+      },
+      "block_order": [
+        "tab-0",
+        "tab-1",
+        "b84c14b2-28b7-4aaf-a930-3bbcaaabfb3c",
+        "31a51d01-dda4-4930-a2b0-82899e58f421",
+        "f0622d75-9fe8-4fc1-8166-f8084b678713"
+      ],
+      "settings": {
+        "title": "de Maroc Collections",
+        "grid": 3,
+        "limit": 6,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16462537805c1f92ed": {
+      "type": "section-double",
+      "blocks": {
+        "16462537790a44630d-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "- Architectural Digest",
+            "text": "<p>“The thing that makes these rugs so exceptional is the details. The quirks and imperfections that reveal where they came from, where they have been. Authenticity lies in these nuances. It gives them soul. It reminds you that this rug lived a rich, colorful life before it was here. You can’t replicate that in a factory.” - Emmy Ellison, de Maroc founder<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "16462537790a44630d-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0Y6A0090.jpg",
+            "bg_position": "center-bottom",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "16462537790a44630d-0",
+        "16462537790a44630d-1"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1646250777a2baaad5": {
+      "type": "section-logos",
+      "blocks": {
+        "1646250777a4765583-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AD_white-removebg-preview.png",
+            "link": "https:\/\/www.architecturaldigest.com\/story\/emmy-ellison-los-angeles-home"
+          }
+        },
+        "1646250777a4765583-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
+            "link": ""
+          }
+        },
+        "1646250777a4765583-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.png",
+            "link": ""
+          }
+        },
+        "1646250777a4765583-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/la_times_white-removebg-preview.png",
+            "link": ""
+          }
+        },
+        "435596f5-fb91-445f-90cc-d079093a98f9": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fred-segal.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1646250777a4765583-2",
+        "1646250777a4765583-0",
+        "1646250777a4765583-1",
+        "1646250777a4765583-3",
+        "435596f5-fb91-445f-90cc-d079093a98f9"
+      ],
+      "settings": {
+        "title": "Featured In",
+        "bg": "palette--dark bg--invert"
+      }
+    },
+    "164608040582464cf9": {
+      "type": "section-double",
+      "blocks": {
+        "1646080404a60047db-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sura_762e76b6-dd95-44f7-a741-580500b48264.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1646080404a60047db-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Private Collection",
+            "title": "Sura",
+            "text": "<p>An art collector's dream, Sura features only the rarest and most exquisite antique and vintage rugs. Many pieces in the Sura Collection exceed a century in age, and have been lovingly passed down through multiple generations. Stunningly artistic, these rugs make excellent wall hangings or tapestries. This extraordinary collection is available through Diafa de Maroc, a private and personalized hospitality experience.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/sura",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1646080404a60047db-1",
+        "1646080404a60047db-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1646080132f464abff": {
+      "type": "section-double",
+      "blocks": {
+        "1646080132e082041e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lalla_c3e35a55-27d1-417f-a9d5-939cb45cddff.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1646080132e082041e-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Traditional Collection",
+            "title": "Lalla",
+            "text": "<p>Lalla celebrates the exquisite traditional colors and designs from the different regions of Morocco.  Featuring some of the most exclusive rugs from across the country, the Lalla Collection stands out for the quality of the wool, elegant designs, and natural dyeing techniques. Each rug tells its own unique story while honoring the individual technique of the weaver.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/lalla",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1646080132e082041e-1",
+        "1646080132e082041e-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1646079811b20377b0": {
+      "type": "section-double",
+      "blocks": {
+        "16460798114e63fc54-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Noor_f43eef97-f545-44ce-83bf-d45954684389.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "16460798114e63fc54-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Neutral Collection",
+            "title": "Noor",
+            "text": "<p>The subtle color schemes derived from natural materials emphasize the raw beauty of the weaving technique. The Noor Collection is inspired by the earthy colors of nature, which add grounding depth and warmth to a space. Versatile by nature, this collection fits seamlessly into any space. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/noor",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "16460798114e63fc54-1",
+        "16460798114e63fc54-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "16460798050766440b": {
+      "type": "section-double",
+      "blocks": {
+        "164607980522c40726-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tafsut.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "164607980522c40726-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Modern Collection",
+            "title": "Tafsut",
+            "text": "<p>Tafsut is an original collection of contemporary rugs, designed to pay homage to the warmth, skill, and complexity of traditional Moroccan textiles. Using authentic Berber rug-making techniques, these pieces are designed in modern sizes to better fit contemporary living spaces. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/tafsut",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "164607980522c40726-1",
+        "164607980522c40726-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1646079788aa3fd93b": {
+      "type": "section-double",
+      "blocks": {
+        "1646079788e35a0dd3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Madaya_bf130985-d958-4599-bdc3-b5a8a1b986a1.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "1646079788e35a0dd3-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Absract Collection",
+            "title": "Madaya",
+            "text": "<p>Madaya embodies the unique artistic expression of its weavers. Rugs are adventurous in their narratives and push the boundaries of tradition. The Madaya Collection showcases skill, creativity, and playfulness through unexpected geometric patterns and convention-breaking color schemes. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/madaya",
+            "button_color": "btn--neutral",
+            "button_style": "btn btn--long uppercase",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1646079788e35a0dd3-1",
+        "1646079788e35a0dd3-0"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1646079242aa0428e4": {
+      "type": "apps",
+      "blocks": {
+        "e2c89c34-2cd7-4037-84e9-734c81b2849c": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "helvetica_n4",
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "e2c89c34-2cd7-4037-84e9-734c81b2849c"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1646080794f8c5793d": {
+      "type": "section-html",
+      "disabled": true,
+      "settings": {
+        "html": "<div id=\"insta-feed\"><\/div>",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "1646078890704e4d20",
+    "tabs",
+    "16462537805c1f92ed",
+    "1646250777a2baaad5",
+    "164608040582464cf9",
+    "1646080132f464abff",
+    "1646079811b20377b0",
+    "16460798050766440b",
+    "1646079788aa3fd93b",
+    "1646079242aa0428e4",
+    "1646080794f8c5793d"
+  ]
+}

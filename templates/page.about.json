@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "About",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "164667834214b5ff5e": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "About",
+        "text": "<p>The de Maroc collection is an online store and diafa hospitality experience that connects buyers with one-of-a-kind vintage and antique Moroccan rugs. Handpicked by de Maroc founder Emmy Ellison, all our rugs were discovered in renowned textile regions of Morocco and specially chosen for their rarity and exceptional artistry. <\/p><p>Curated over years worth of travel and searching, our comprehensive collection features everything from exquisite traditional Berber designs to the most unusual and creative pieces from centuries passed. Our collection is divided into five distinct aesthetic categories, making it simple for you to find your perfect match.<\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16460679096607b1e5": {
+      "type": "section-double",
+      "blocks": {
+        "16460679090822b8a4-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Emmy Ellison",
+            "text": "<p>North Carolina native Emmy Ellison was raised in a home that cultivated her love of design and environmental aesthetics since childhood. Benefiting from a lifetime of world travel and being surrounded by artists, academics, and leaders in business, Emmy's unique perspective and skill set led her to a degree in production design. Becoming a mother refocused her purpose in life towards home and the beauty within it. After embarking on a journey of self-discovery to Morocco, she was impacted irrevocably by the complexity and depth of Moroccan culture, traditions, and design.<\/p><p>Thus the de Maroc Collection was born, a pure passion project that has become one of the world’s most foremost collections of its kind. Emmy is excited to share her collection with you. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "16460679090822b8a4-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about3.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "16460679090822b8a4-0",
+        "16460679090822b8a4-1"
+      ],
+      "settings": {
+        "height": "use_screen_full",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "164667834214b5ff5e",
+    "16460679096607b1e5"
+  ]
+}

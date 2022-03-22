@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "1646254247ad4ed53d": {
+      "type": "section-double",
+      "blocks": {
+        "164625424794c5f509-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "Private Collection",
+            "title": "Sura Collection",
+            "text": "<p>An art collector's dream, <em>Sura<\/em> features only the rarest and most exquisite antique and vintage rugs. Many pieces in the <em>Sura<\/em> Collection exceed a century in age, and have been lovingly passed down through multiple generations. Stunningly artistic, these rugs make excellent wall hangings or tapestries. This extraordinary collection is available through Diafa de Maroc, a private and personalized hospitality experience.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "164625424794c5f509-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/c4e0e717.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "164625424794c5f509-0",
+        "164625424794c5f509-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "hero": {
+      "type": "collection-hero",
+      "disabled": true,
+      "settings": {
+        "text_align": "align--middle-right",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": false,
+        "show_image": true,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_fifth",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "text_color": "text--white"
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "show_subcollection": true,
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "aspect_ratio": 0.6,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "settings": {
+        "grid_setting_large": 3,
+        "grid_setting_small": 2,
+        "product_limit": 50,
+        "enable_layout_toggle": true,
+        "collection_sorting": true,
+        "hide_sidebar": false
+      }
+    }
+  },
+  "order": [
+    "1646254247ad4ed53d",
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}
