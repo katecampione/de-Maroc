@@ -89,6 +89,13 @@
             "title": "All collections"
           }
         },
+        "a144c966-818b-4d4d-9488-a5a46b18c0a7": {
+          "type": "group",
+          "settings": {
+            "title": "Filter by size",
+            "group_tags": "Small, Medium, Large, Long, Runner"
+          }
+        },
         "filters": {
           "type": "filters",
           "settings": {
@@ -97,6 +104,7 @@
       },
       "block_order": [
         "collections",
+        "a144c966-818b-4d4d-9488-a5a46b18c0a7",
         "filters"
       ],
       "settings": {
