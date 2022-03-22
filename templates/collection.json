@@ -27,7 +27,7 @@
             "image": "shopify:\/\/shop_images\/Madaya_bf130985-d958-4599-bdc3-b5a8a1b986a1.jpg",
             "bg_position": "center-center",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "kicker": "",
             "title": "",
             "richtext": "",
@@ -93,11 +93,19 @@
           "type": "filters",
           "settings": {
           }
+        },
+        "b621a6d5-5285-433e-9e12-5f30a0ea1def": {
+          "type": "group",
+          "settings": {
+            "title": "Filter by size",
+            "group_tags": "Small, Medium, Large, Long, Runner"
+          }
         }
       },
       "block_order": [
         "collections",
-        "filters"
+        "filters",
+        "b621a6d5-5285-433e-9e12-5f30a0ea1def"
       ],
       "settings": {
         "grid_setting_large": 3,
