@@ -89,23 +89,23 @@
             "title": "All collections"
           }
         },
-        "filters": {
-          "type": "filters",
-          "settings": {
-          }
-        },
         "b621a6d5-5285-433e-9e12-5f30a0ea1def": {
           "type": "group",
           "settings": {
             "title": "Filter by size",
             "group_tags": "Small, Medium, Large, Long, Runner"
           }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "collections",
-        "filters",
-        "b621a6d5-5285-433e-9e12-5f30a0ea1def"
+        "b621a6d5-5285-433e-9e12-5f30a0ea1def",
+        "filters"
       ],
       "settings": {
         "grid_setting_large": 3,
