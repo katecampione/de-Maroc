@@ -135,7 +135,7 @@
         "16462537790a44630d-1"
       ],
       "settings": {
-        "height": "use_screen_one_fifth",
+        "height": "use_screen_one_half",
         "padding": true,
         "borders": false,
         "wrapper": true
