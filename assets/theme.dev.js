@@ -5430,7 +5430,7 @@
       // Lighthouse fires security warning for the Shopify link.
       var shopifyLink = document.querySelector('[data-powered-link] a');
       if (shopifyLink) {
-        shopifyLink.setAttribute('rel', 'noopener');
+        shopifyLink.relList.add('noopener');
       }
     },
   };
