@@ -9,7 +9,7 @@
 	// Use your live public API Key and https://cdn1.affirm.com/js/v2/affirm.js script to point to Affirm production environment.
 <!-- End Affirm -->;
 
-let promosJSON = '[{"promoStatus":true,"saleSelector":null,"dataElement":".shopify-product-form","comparePrices":false,"logoColor":"blue","logoType":"logo","addCents":false,"selector":null,"fontSize":"12","position":"afterend","shopifyPageType":"product","pageType":"product","onChange":null,"alaElement":".product__price"},{"promoStatus":true,"saleSelector":null,"dataElement":".cart__items","comparePrices":false,"logoColor":"blue","logoType":"logo","addCents":false,"selector":null,"fontSize":"12","position":"afterend","shopifyPageType":"cart","pageType":"cart","onChange":null,"alaElement":""}]';
+let promosJSON = '[{"promoStatus":true,"saleSelector":null,"logoColor":"blue","comparePrices":false,"dataElement":".shopify-product-form","logoType":"logo","addCents":false,"selector":null,"fontSize":"12","pageType":"product","shopifyPageType":"product","position":"afterend","onChange":null,"alaElement":". product__price__wrap"},{"promoStatus":true,"saleSelector":null,"logoColor":"blue","comparePrices":false,"dataElement":".cart__items","logoType":"logo","addCents":false,"selector":null,"fontSize":"12","pageType":"cart","shopifyPageType":"cart","position":"afterend","onChange":null,"alaElement":""}]';
 
 let promos = JSON.parse(promosJSON);
 
