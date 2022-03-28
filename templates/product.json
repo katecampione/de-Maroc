@@ -40,8 +40,8 @@
             "raw_content_2": "<p>{{ product.metafields.my_fields.rug_details | metafield_tag }}<\/p>",
             "title_3": "The {{ product.title }} Story",
             "raw_content_3": "<p>{{ product.metafields.my_fields.the_story | metafield_tag }}<\/p>",
-            "title_4": "",
-            "raw_content_4": "",
+            "title_4": "Dimensions",
+            "raw_content_4": "<p>{{ product.metafields.my_fields.dimensions.value }}<\/p>",
             "title_5": "",
             "raw_content_5": ""
           }
