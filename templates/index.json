@@ -34,26 +34,6 @@
         "bg": "palette--light bg--neutral"
       }
     },
-    "hero": {
-      "type": "section-hero",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/rug_hero.jpg",
-        "bg_position": "center-center",
-        "height": "use_screen_three_quarters",
-        "overlay_opacity": 0,
-        "overlay_color": "#ffffff",
-        "kicker": "",
-        "title": "de Maroc",
-        "richtext": "<p><strong>The world's most exclusive collection of rare vintage Moroccan wool rugs handcrafted by the country's finest artisans.<\/strong><\/p>",
-        "text_align": "align--bottom-center",
-        "text_color": "text--black",
-        "link_text": "Shop NOw",
-        "link": "shopify:\/\/collections\/all",
-        "button_color": "btn--black",
-        "button_style": "btn"
-      }
-    },
     "tabs": {
       "type": "section-collection-tabs",
       "blocks": {
@@ -512,7 +492,6 @@
   "order": [
     "1648484905a67ce076",
     "1648485198bac12ed0",
-    "hero",
     "tabs",
     "16462537805c1f92ed",
     "1646250777a2baaad5",
