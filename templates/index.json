@@ -15,6 +15,25 @@
         "button_style": "btn"
       }
     },
+    "1648485198bac12ed0": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "<p><em>The world's most exclusive collection of rare vintage Moroccan wool rugs handcrafted by the country's finest artisans.<\/em><\/p>",
+        "text_size": 3,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
     "hero": {
       "type": "section-hero",
       "disabled": true,
@@ -33,25 +52,6 @@
         "link": "shopify:\/\/collections\/all",
         "button_color": "btn--black",
         "button_style": "btn"
-      }
-    },
-    "1646078890704e4d20": {
-      "type": "section-richtext",
-      "settings": {
-        "kicker": "",
-        "title": "",
-        "text": "<p>Each of our hand-picked rugs has been meticulously crafted by artisans using natural fibers and dyes unique to that region. Steeped in the artistry and heritage that has made Moroccan rugs coveted world-over, these pieces are a testament to the skill and creativity of the women who made them. And because we specialize in unearthing rare vintage and antique rugs, every item in our collection has a unique story to tell. <\/p>",
-        "text_size": 2,
-        "text_columns": 1,
-        "align_text": "text-center",
-        "button_text": "",
-        "button_url": "",
-        "button_color": "btn--neutral",
-        "button_style": "caps--link",
-        "height": "margin--medium",
-        "width": "wrapper",
-        "text_color": "text--neutral",
-        "bg": "palette--light bg--neutral"
       }
     },
     "tabs": {
@@ -206,6 +206,25 @@
       "settings": {
         "title": "Featured In",
         "bg": "palette--dark bg--invert"
+      }
+    },
+    "1646078890704e4d20": {
+      "type": "section-richtext",
+      "settings": {
+        "kicker": "",
+        "title": "",
+        "text": "<p>Each of our hand-picked rugs has been meticulously crafted by artisans using natural fibers and dyes unique to that region. Steeped in the artistry and heritage that has made Moroccan rugs coveted world-over, these pieces are a testament to the skill and creativity of the women who made them. And because we specialize in unearthing rare vintage and antique rugs, every item in our collection has a unique story to tell. <\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--link",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
       }
     },
     "164608040582464cf9": {
@@ -492,11 +511,12 @@
   },
   "order": [
     "1648484905a67ce076",
+    "1648485198bac12ed0",
     "hero",
-    "1646078890704e4d20",
     "tabs",
     "16462537805c1f92ed",
     "1646250777a2baaad5",
+    "1646078890704e4d20",
     "164608040582464cf9",
     "1646080132f464abff",
     "1646079811b20377b0",
