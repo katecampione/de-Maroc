@@ -1,29 +1,8 @@
 {
   "sections": {
-    "1648484049283e1cf1": {
-      "type": "section-video",
-      "settings": {
-        "height": "use_screen_full",
-        "video_link_bg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0613\/7518\/5087\/files\/Tableau_18MB_Landing_Page.mov?v=1648484133",
-        "object_position": "center-center",
-        "bg_position": "center-center",
-        "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "popup_text": "",
-        "kicker": "",
-        "title": "",
-        "richtext": "",
-        "text_align": "align--middle-center",
-        "text_color": "text--white",
-        "overlay_opacity": 0,
-        "overlay_color": "#000",
-        "link_text": "",
-        "link": "",
-        "button_color": "btn--white",
-        "button_style": "btn"
-      }
-    },
     "hero": {
       "type": "section-hero",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/rug_hero.jpg",
         "bg_position": "center-center",
@@ -494,10 +473,24 @@
         "html": "<div id=\"insta-feed\"><\/div>",
         "full_width": true
       }
+    },
+    "1648484905a67ce076": {
+      "type": "homepage-video",
+      "settings": {
+        "videofile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0613\/7518\/5087\/files\/Tableau_18MB_Landing_Page.mov?v=1648484133",
+        "height": "use_screen_two_thirds",
+        "title": "Video with text overlay",
+        "description": "This area is used to describe your store.",
+        "text_align": "align--middle-center",
+        "overlay_opacity": 15,
+        "color": "palette--contrast--dark",
+        "link_text": "View products",
+        "link": "",
+        "button_style": "btn"
+      }
     }
   },
   "order": [
-    "1648484049283e1cf1",
     "hero",
     "1646078890704e4d20",
     "tabs",
@@ -509,6 +502,7 @@
     "16460798050766440b",
     "1646079788aa3fd93b",
     "1646079242aa0428e4",
-    "1646080794f8c5793d"
+    "1646080794f8c5793d",
+    "1648484905a67ce076"
   ]
 }
