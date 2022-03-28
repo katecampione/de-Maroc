@@ -1,5 +1,27 @@
 {
   "sections": {
+    "1648484049283e1cf1": {
+      "type": "section-video",
+      "settings": {
+        "height": "use_screen_full",
+        "video_link_bg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0613\/7518\/5087\/files\/Tableau_18MB_Landing_Page.mov?v=1648484133",
+        "object_position": "center-center",
+        "bg_position": "center-center",
+        "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "popup_text": "",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
     "hero": {
       "type": "section-hero",
       "settings": {
@@ -475,6 +497,7 @@
     }
   },
   "order": [
+    "1648484049283e1cf1",
     "hero",
     "1646078890704e4d20",
     "tabs",
