@@ -4,7 +4,7 @@
       "type": "homepage-video",
       "settings": {
         "videofile": "https:\/\/cdn.shopify.com\/s\/files\/1\/0613\/7518\/5087\/files\/Tableau_18MB_Landing_Page.mov?v=1648484133",
-        "height": "use_screen_three_quarters",
+        "height": "use_screen_full",
         "title": "",
         "description": "",
         "text_align": "align--middle-center",
