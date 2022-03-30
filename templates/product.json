@@ -247,13 +247,21 @@
             "image": "shopify:\/\/shop_images\/3.png",
             "link": ""
           }
+        },
+        "262abd69-f467-4357-ad57-736bc876f74a": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fred-segal.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "1646252908f108cac3-0",
         "1646252908f108cac3-1",
         "1646252908f108cac3-2",
-        "1646252908f108cac3-3"
+        "1646252908f108cac3-3",
+        "262abd69-f467-4357-ad57-736bc876f74a"
       ],
       "settings": {
         "title": "Featured In",
