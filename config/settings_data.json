@@ -156,7 +156,7 @@
           "enable_account": true,
           "use_icons": true,
           "header_sticky": "static",
-          "transparent_home": false,
+          "transparent_home": true,
           "transparent_collection": false,
           "transparent_blog": false,
           "transparent_article": false,
