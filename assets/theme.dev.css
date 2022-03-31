@@ -21826,3 +21826,25 @@ body:not(.focus-enabled) .plyr.plyr--full-ui.plyr--video {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+/*! ========= Remove transparent header from mobile version ============= */
+
+@media (max-width: 480px){
+	.header__wrapper {
+    --bg: var(---color-nav) !important;
+    --border: var(---color-nav-border) !important;
+    --text: var(---color-nav-text) !important;
+    --text-dark: var(---color-nav-text) !important;
+    --text-light: var(---color-nav-text) !important;
+    --text-transparent: var(---color-nav-text-transparent) !important;
+    --underline: var(---color-nav-a10) !important;
+}
+      .theme__header{
+		    background-color: var(--bg) !important;
+    color: var(--text) !important;
+    border-bottom: 1px solid var(--border) !important;
+      }
+       [data-header-transparent=true]+.header__backfill{   
+display: block !important;  
+}
+}
+/*! ========= End Remove transparent header from mobile version ============= */
