@@ -38,7 +38,7 @@ background-color: white;
 }
 /*! ========= Remove transparent header from mobile version ============= */
 
-@media (max-width: 699px){
+@media (max-width: 750px){
 	.header__wrapper {
     --bg: var(---color-nav) !important;
     --border: var(---color-nav-border) !important;
