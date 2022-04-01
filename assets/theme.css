@@ -62,3 +62,13 @@ display: block !important;
 #shopify-section-header > div.header__wrapper.neighbor--white > header > div {
   border-bottom: 0.75px solid rgba(255,255,255, 0.7);
 }
+@media (min-width: 750px){
+  #shopify-section-template--15494548717759__1648485198bac12ed0 > section > div > div > a {
+  display: none;
+  }
+}
+@media (max-width: 750px){
+  #videobtn {
+    display: none;
+  }
+}
