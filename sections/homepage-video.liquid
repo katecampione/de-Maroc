@@ -13,7 +13,7 @@
 
 <div class="section--image fade-in-child preventOverflow {{ section.settings.height }} {{ section.settings.color }}" data-section-id="{{ section.id }}" data-section-type="hero" data-overlay-header>
   <span class="video_text">
-    <a class="btn--outline cta--overlay btn--large uppercase" href="" data-live-text-setting="section.template--15494548717759__1648484905a67ce076.link_text/escape">shop now</a>
+    <a id="videobtn" class="btn--outline cta--overlay btn--large uppercase" href="" data-live-text-setting="section.template--15494548717759__1648484905a67ce076.link_text/escape">shop now</a>
     </span>
   <video autoplay loop muted playsinline width="100%" {% if section.settings.height != 'use_image' %} style="position: absolute;  top: 0;  left: 0;  width: 100%;  height: auto"{% endif %}>
     <source src="{{ section.settings.videofile }}" type="video/mp4" id="{{ section.id }}">
@@ -177,14 +177,15 @@
 {% endstylesheet %}
 <style>
   .video_text {
-    
+    color: white;
     position: absolute;
     z-index: 9999;
     left: 0;
-    top: 90%;
-    
+    top: 80%;
     text-align: center;
     right: 0;
-    
+}
+#videobtn {
+  border: 1px solid white;
 }
 </style>
