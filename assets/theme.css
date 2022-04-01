@@ -60,5 +60,5 @@ display: block !important;
 /*! ========= End Remove transparent header from mobile version ========= */
 
 #shopify-section-header > div.header__wrapper.neighbor--white > header > div {
-  border-bottom: 0.75px solid rgba(255,255,255, 0.);
+  border-bottom: 0.75px solid rgba(255,255,255, 0.7);
 }
