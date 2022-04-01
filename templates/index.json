@@ -233,7 +233,7 @@
           "settings": {
             "kicker": "Private Collection",
             "title": "Sura",
-            "text": "<p>An art collector's dream, Sura features only the rarest and most exquisite antique and vintage rugs. Many pieces in the Sura Collection exceed a century in age, and have been lovingly passed down through multiple generations. Stunningly artistic, these rugs make excellent wall hangings or tapestries. This extraordinary collection is available through Diafa de Maroc, a private and personalized hospitality experience.<\/p>",
+            "text": "<p>An art collector's dream, <em>Sura<\/em> features only the rarest and most exquisite antique and vintage rugs. Many pieces in the Sura Collection exceed a century in age, and have been lovingly passed down through multiple generations. Stunningly artistic, these rugs make excellent wall hangings or tapestries. This extraordinary collection is available through Diafa de Maroc, a private and personalized hospitality experience.<\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-left",
@@ -283,7 +283,7 @@
           "settings": {
             "kicker": "Traditional Collection",
             "title": "Lalla",
-            "text": "<p>Lalla celebrates the exquisite traditional colors and designs from the different regions of Morocco.  Featuring some of the most exclusive rugs from across the country, the Lalla Collection stands out for the quality of the wool, elegant designs, and natural dyeing techniques. Each rug tells its own unique story while honoring the individual technique of the weaver.<\/p>",
+            "text": "<p><em>Lalla<\/em> celebrates the exquisite traditional colors and designs from the different regions of Morocco.  Featuring some of the most exclusive rugs from across the country, the Lalla Collection stands out for the quality of the wool, elegant designs, and natural dyeing techniques. Each rug tells its own unique story while honoring the individual technique of the weaver.<\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-left",
@@ -333,7 +333,7 @@
           "settings": {
             "kicker": "Neutral Collection",
             "title": "Noor",
-            "text": "<p>The subtle color schemes derived from natural materials emphasize the raw beauty of the weaving technique. The Noor Collection is inspired by the earthy colors of nature, which add grounding depth and warmth to a space. Versatile by nature, this collection fits seamlessly into any space. <\/p>",
+            "text": "<p><em>Noor<\/em> draws attention to the raw beauty of the weaving artistry, through the subtle coloring derived from natural materials.  The Noor Collection is inspired by the natural tones of the earth, which add grounding depth and warmth to a space. Versatile by nature, this collection seamlessly compliments any room. <\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-left",
@@ -383,7 +383,7 @@
           "settings": {
             "kicker": "Modern Collection",
             "title": "Tafsut",
-            "text": "<p>Tafsut is an original collection of contemporary rugs, designed to pay homage to the warmth, skill, and complexity of traditional Moroccan textiles. Using authentic Berber rug-making techniques, these pieces are designed in modern sizes to better fit contemporary living spaces. <\/p>",
+            "text": "<p><em>Tafsut<\/em> is an original collection of contemporary rugs, designed to pay homage to the warmth, skill, and complexity of traditional Moroccan textiles. Using authentic Berber rug-making techniques, these pieces are designed in modern sizes to better fit contemporary living spaces. <\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-left",
@@ -433,7 +433,7 @@
           "settings": {
             "kicker": "Absract Collection",
             "title": "Madaya",
-            "text": "<p>Madaya embodies the unique artistic expression of its weavers. Rugs are adventurous in their narratives and push the boundaries of tradition. The Madaya Collection showcases skill, creativity, and playfulness through unexpected geometric patterns and convention-breaking color schemes. <\/p>",
+            "text": "<p><em>Madaya<\/em> embodies the unique artistic expression of its weavers. Rugs are adventurous in their narratives and push the boundaries of tradition. The Madaya Collection showcases skill, creativity, and playfulness through unexpected geometric patterns and convention-breaking color schemes. <\/p>",
             "text_size": 2,
             "text_columns": 1,
             "align_text": "text-left",
