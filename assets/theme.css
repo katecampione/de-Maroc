@@ -62,3 +62,7 @@ display: block !important;
 #shopify-section-header > div.header__wrapper.neighbor--white > header > div {
   border-bottom: 0.75px solid rgba(255,255,255, 0.7);
 }
+#shopify-section-template--15494548717759__1648484905a67ce076 > div > div > div > a {
+  display: none;
+
+}
