@@ -21826,6 +21826,9 @@ body:not(.focus-enabled) .plyr.plyr--full-ui.plyr--video {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+#shopify-section-header > div.header__wrapper.neighbor--white > header > div {
+  border-bottom: 1px solid white;
+}
 /*! ========= Remove transparent header from mobile version ============= */
 
 @media (max-width: 480px){
