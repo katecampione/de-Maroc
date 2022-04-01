@@ -21849,3 +21849,23 @@ display: block !important;
 }
 }
 /*! ========= End Remove transparent header from mobile version ============= */
+@media only screen (min-width: 750px){
+  .video_text {
+    color: white;
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    top: 80%;
+    text-align: center;
+    right: 0;
+}
+#videobtn {
+  border: 1px solid white;
+  color: white;
+}
+  }
+
+  #shopify-section-template--15494548717759__1648484905a67ce076 > div > div > div > a {
+    display: none;
+  
+}
