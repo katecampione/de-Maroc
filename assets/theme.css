@@ -81,3 +81,9 @@ display: block !important;
  color: #343434;
  letter-spacing: 0.18em;
 }
+.standard__rte {
+ font-family: 'El Messiri', sans-serif;
+ color: #343434;
+ letter-spacing: 0.05em;
+ line-height: 24;
+}
