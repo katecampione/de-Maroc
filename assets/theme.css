@@ -97,3 +97,10 @@ p {
  line-height: 24px !important;
 font-size: 17px !important;   
 }
+product__title {
+ font-family: 'El Messiri', sans-serif !important;
+ color: #343434 !important;
+ letter-spacing: 0.18em !important;
+  font-size: 33px !important;
+} 
+}
