@@ -73,20 +73,20 @@ display: block !important;
   }
 }
 .standard__kicker {
- color: #9D9D9D; 
- letter-spacing: 0.04em;
- font-size: 19px;
+ color: #9D9D9D !important;
+ letter-spacing: 0.04em !important;
+ font-size: 19px!important;
 }
 .standard__heading {
  font-family: 'El Messiri', sans-serif !important;
- color: #343434;
- letter-spacing: 0.18em;
-  font-size: 33px;
+ color: #343434 !important;
+ letter-spacing: 0.18em !important;
+  font-size: 33px !important;
 }
 .standard__rte {
  font-family: 'Lora', serif !important;
- color: #343434;
- letter-spacing: 0.05em;
- line-height: 24px;
-  font-size: 17px;
+ color: #343434 !important;
+ letter-spacing: 0.05em !important;
+ line-height: 24px !important;
+font-size: 17px !important;
 }
