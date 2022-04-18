@@ -84,7 +84,7 @@ display: block !important;
   font-size: 33px;
 }
 .standard__rte {
- font-family: 'Lora', serif;
+ font-family: 'Lora', serif !important;
  color: #343434;
  letter-spacing: 0.05em;
  line-height: 24px;
