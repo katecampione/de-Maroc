@@ -90,3 +90,10 @@ display: block !important;
  line-height: 24px !important;
 font-size: 17px !important;
 }
+p {
+   font-family: 'Lora', serif !important;
+ color: #343434 !important;
+ letter-spacing: 0.05em !important;
+ line-height: 24px !important;
+font-size: 17px !important;   
+}
