@@ -77,7 +77,7 @@ display: block !important;
  letter-spacing: 0.04em;
 }
 standard__heading {
- font-family: 'El Messiri', sans-serif;
+ font-family: 'El Messiri', sans-serif !important;
  color: #343434;
  letter-spacing: 0.18em;
 }
