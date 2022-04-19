@@ -33,12 +33,7 @@
           </span>
         {% endif %}
 
-      <span data-price-off class="product__price--off hide">
-        <span data-price-off-type>{{ 'products.product.sale' | t }}</span>
-        <em>•</em>
-        {{ 'products.product.save' | t }}
-        <span data-price-off-amount></span>
-      </span>
+      
 
       {% liquid
         assign units = product.variants | map: 'unit_price'
