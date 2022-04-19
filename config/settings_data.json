@@ -29,6 +29,7 @@
     "image_hover_enable": true,
     "product_grid_image": "scale",
     "product_grid_aspect_ratio": 1.1,
+    "badge_sale_discount": true,
     "cart_style": "drawer",
     "cart_shipping_enable": false,
     "cart_show_quantity": false,
