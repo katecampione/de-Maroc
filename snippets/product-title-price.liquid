@@ -23,6 +23,11 @@
   <div class="product__price__wrap">
     <div class="product__price__main" data-price-wrapper>
       <span class="product__price">
+        {% if product.compare_at_price > variant.price %}
+
+{% include ‘price’ with variant.compare_at_price_max %}
+
+{% endif %}
         <span data-product-price {% if current_variant.compare_at_price > current_variant.price %} class="product__price--sale"{% endif %}>
           {{ current_variant.price | money }}
         </span>
