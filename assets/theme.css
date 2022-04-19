@@ -108,6 +108,8 @@ font-size: 17px !important;
  font-size: 13px !important;
 }
 .on-sale {
-  color: red !important;    
-     
-      }
+  color: red !important;
+}
+.product-grid-item .compare-at {
+  margin-left: -95px !important;
+}
