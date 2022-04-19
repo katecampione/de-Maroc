@@ -103,3 +103,7 @@ font-size: 17px !important;
  letter-spacing: 0.18em !important;
  font-size: 33px !important;
 } 
+.affirm-as-low-as {
+ font-size: 12px !important!;
+ text-transform: none;
+}
