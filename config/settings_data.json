@@ -136,17 +136,6 @@
               "link_text": "",
               "link": "shopify:\/\/collections\/tafsut"
             }
-          },
-          "72098d61-3ed6-4d8f-8e4f-628fd5a46f3b": {
-            "type": "image",
-            "settings": {
-              "position": "1",
-              "aspect_ratio": 1.3,
-              "image": "shopify:\/\/shop_images\/madaya_4318e57e-9898-4b88-901d-35935b60f342.jpg",
-              "title": "Sale",
-              "link_text": "",
-              "link": "shopify:\/\/collections\/sale"
-            }
           }
         },
         "block_order": [
@@ -154,8 +143,7 @@
           "f94032ed-a89c-4776-8784-84db0fab8dca",
           "e8dd9274-c772-4bc4-8fbf-43a6628a56ff",
           "6ece5c37-b79e-49dd-9481-55188c12898d",
-          "6e6eb0b4-c8e5-4586-9d16-8bdd84cb15da",
-          "72098d61-3ed6-4d8f-8e4f-628fd5a46f3b"
+          "6e6eb0b4-c8e5-4586-9d16-8bdd84cb15da"
         ],
         "settings": {
           "header_style": "menu_center",
