@@ -107,3 +107,7 @@ font-size: 17px !important;
  text-transform: none;
  font-size: 13px !important;
 }
+.price-on-sale {
+  color: red;    
+     
+      }
