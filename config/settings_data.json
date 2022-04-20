@@ -138,16 +138,6 @@
               "link_text": "",
               "link": "shopify:\/\/collections\/tafsut"
             }
-          },
-          "aa7a7258-5a95-4f72-9c3d-84e2aeeb3140": {
-            "type": "image",
-            "settings": {
-              "position": "2",
-              "aspect_ratio": 0.5,
-              "title": "Sale",
-              "link_text": "",
-              "link": "shopify:\/\/collections\/sale"
-            }
           }
         },
         "block_order": [
@@ -155,8 +145,7 @@
           "f94032ed-a89c-4776-8784-84db0fab8dca",
           "e8dd9274-c772-4bc4-8fbf-43a6628a56ff",
           "6ece5c37-b79e-49dd-9481-55188c12898d",
-          "6e6eb0b4-c8e5-4586-9d16-8bdd84cb15da",
-          "aa7a7258-5a95-4f72-9c3d-84e2aeeb3140"
+          "6e6eb0b4-c8e5-4586-9d16-8bdd84cb15da"
         ],
         "settings": {
           "header_style": "menu_center",
