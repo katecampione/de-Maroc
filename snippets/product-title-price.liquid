@@ -25,7 +25,7 @@
       <span class="product__price">
         
         <span data-compare-price class="compare-at em {% unless current_variant.price < 12000 %}hide{% endunless %}">{<p>Please contact our design team for pricing</p></span>
-        <span class="product__price--off hide" data-compare-text style="display: none"></span>  
+         
         
         <span data-product-price {% if current_variant.compare_at_price > current_variant.price %} class="product__price--sale"{% endif %}>
           {{ current_variant.price | money }}
