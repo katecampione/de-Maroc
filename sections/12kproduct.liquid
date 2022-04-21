@@ -1,30 +1,19 @@
-{% assign product = all_products[section.settings.home_product] %}
+{%- liquid
+  assign thumbs_align = section.settings.align
+  assign ratio = product.media[0].preview_image.aspect_ratio
+  if ratio < 1  
+    assign thumbs_align = 'center'
+  endif
+-%}
 
-{% if product.empty? %}
-  <div class="homepage-product product-section {{ section.settings.bg }}">
-    {% unless section.settings.title == '' %}
-      <h2 class="home__subtitle">{{ section.settings.title | escape }}</h2>
-    {% endunless %}
-      {% render 'onboarding-product' %}
-  </div>
-{% else %}
-  {%- liquid
-    assign thumbs_align = section.settings.align
-    assign ratio = product.media[0].preview_image.aspect_ratio
-    if ratio < 1  
-      assign thumbs_align = 'center'
-    endif
-  -%}
-  <div class="homepage-product product-section {{ section.settings.bg }}" 
-    data-enable-video-looping="{{ section.settings.enable_video_looping }}" 
-    data-enable-history-state="false"
-    data-section-id="{{ section.id }}" 
-    data-thumbs-align="{{ thumbs_align }}" 
-    data-section-type="product">
-    {% unless section.settings.title == '' %}
-      <h2 class="home__subtitle">{{ section.settings.title | escape }}</h2>
-    {% endunless %}
-    
+<div class="product-section {{ section.settings.bg }}" 
+  data-product-handle="{{ product.handle }}"
+  data-section-id="{{ section.id }}" 
+  data-section-type="product"
+  data-enable-video-looping="{{ section.settings.enable_video_looping }}" 
+  data-thumbs-align="{{ thumbs_align }}" 
+  {% if product.has_only_default_variant %}data-enable-history-state="false"{% else %}data-enable-history-state="true"{% endif %}>
+  
 {%- case section.settings.image_width -%}
   {%- when 'full' -%}
     {%- assign product_image_width = 'one-whole' -%}
@@ -117,8 +106,7 @@
             {%- when '@app' -%}
               {% render block %}    
             {% when 'title' %}
-       
-              {% render 'products-12k-plus-title-price', product: product, block: block, section: section %}
+              {% render 'product-title-price', product: product, block: block, section: section %}
             {% when 'form' %}
               <div class="product__details">
                 {% render 'product-form', product: product, block: block, section: section %}
@@ -190,40 +178,66 @@
   {{ product.media | where: 'media_type', 'model' | json }}
 </script>
 
-  </div>
-{% endif %}
+</div>
+
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+
+{% comment %} Google wants to know when to check your price again {% endcomment %}
+{%- assign days_price_is_valid = 1 -%}
+{%- assign seconds_in_a_day = 86400 -%}
+{%- assign seconds_price_valid = days_price_is_valid | times: seconds_in_a_day -%}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": {{ product.title | json }},
+  "url": {{ shop.url | append: product.url | json }},
+  {%- if product.featured_media.preview_image -%}
+    {%- assign image_size = product.featured_media.preview_image.width | append: 'x' -%}
+    "image": [
+      {{ product.featured_media.preview_image | img_url: image_size | prepend: "https:" | json }}
+    ],
+  {%- endif -%}
+  "description": {{ product.description | strip_html | json }},
+  "sku": {{ current_variant.sku | json }},
+  "category": {{ product.type | json }},
+  {%- if product.metafields.reviews.rating.value != blank -%}
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "{{ product.metafields.reviews.rating.value }}",
+      "ratingCount": "{{ product.metafields.reviews.rating_count.value }}",
+      "bestRating": "{{ product.metafields.reviews.rating.value.scale_max }}",
+      "worstRating": "{{ product.metafields.reviews.rating.value.scale_min }}"
+    },
+  {%- endif -%}
+  "brand": {
+    "@type": "Organization",
+    "name": {{ product.vendor | default: shop.name | json }}
+  },
+  "offers": [
+    {%- for variant in product.variants -%}
+      {
+        "@type" : "Offer",
+        {%- if variant.sku != blank -%}
+          "sku": {{ variant.sku | json }},
+        {%- endif -%}
+        "availability" : "http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
+        "price" : {{ variant.price | divided_by: 100.00 | json }},
+        "priceCurrency" : {{ cart.currency.iso_code | json }},
+        "priceValidUntil": "{{ 'now' | date: '%s' | plus: seconds_price_valid | date: '%Y-%m-%d'}}",
+        "url" : {{ shop.url | append: variant.url | json }}
+      }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+
 
 {% schema %}
 {
-  "name": "Product form",
+  "name": "Product page",
   "settings": [
-    {
-      "type": "header",
-      "content": "Product"
-    },
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Heading",
-      "default": "Featured product"
-    },
-    {
-      "type": "product",
-      "id": "home_product",
-      "label": "Product"
-    },
-    {
-      "type": "select",
-      "id": "bg",
-      "label": "Background color",
-      "default": "palette--light bg--neutral",
-      "options": [
-        { "value": "palette--light bg--neutral", "label": "Default"},
-        { "value": "palette--light bg--accent", "label": "Light"},
-        { "value": "palette--dark bg--invert", "label": "Dark"},
-        { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
-      ]
-    },
     {
       "type": "header",
       "content": "Layout"
@@ -251,6 +265,12 @@
       ]
     },
     {
+      "type": "checkbox",
+      "id": "product_breadcrumbs",
+      "label": "Show breadcrumbs",
+      "default": true
+    },
+    {
       "type": "header",
       "content": "Media",
       "info": "Learn more about [media types](https://help.shopify.com/manual/products/product-media)"
@@ -266,6 +286,18 @@
       "id": "zoom_enable",
       "label": "Enable image zoom",
       "default": true
+    },
+    {
+      "type": "select",
+      "id": "bg",
+      "label": "Background color",
+      "default": "palette--light bg--neutral",
+      "options": [
+        { "value": "palette--light bg--neutral", "label": "Default"},
+        { "value": "palette--light bg--accent", "label": "Light"},
+        { "value": "palette--dark bg--invert", "label": "Dark"},
+        { "value": "palette--dark bg--invert--accent", "label": "Dark accent"}
+      ]
     }
   ],
   "blocks": [
@@ -346,7 +378,7 @@
           "type": "select",
           "id": "style",
           "label": "Tab style",
-          "default": "tabs",
+          "default": "accordions",
           "options": [
             { "value": "none", "label": "None" },
             { "value": "tabs", "label": "Tabs" },
@@ -358,7 +390,7 @@
           "type": "text",
           "id": "title_1",
           "label": "Tab heading",
-          "default": "Tab"
+          "default": "Information"
         },
         {
           "type": "richtext",
@@ -370,7 +402,7 @@
           "type": "text",
           "id": "title_2",
           "label": "Tab heading",
-          "default": "Info"
+          "default": "Details"
         },
         {
           "type": "richtext",
@@ -411,15 +443,48 @@
       ]
     },
     {
+      "type": "upsell",
+      "name": "Upsell",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "type": "paragraph",
+          "content": "Upsell is a one-click add to cart with no variant selection.  Upsell products should have one variant. [Learn more](https://groupthought.com/link/pipeline/docs/upsell/variant)"
+        },
+        {
+          "type": "header",
+          "content": "Upsell in cart"
+        },
+        {
+          "type": "paragraph",
+          "content": "Use a dynamic source with the metafield name 'theme.upsell' to allow product upsells to follow users into the cart. Use any other name to limit this feature to the product page. [Learn more](https://groupthought.com/link/pipeline/docs/upsell/cart)"
+        }
+      ]
+    },
+    {
       "type": "sharing",
       "name": "Sharing",
       "limit": 1,
       "settings": [
         {
-          "type": "checkbox",
-          "id": "social_enable",
-          "label": "Show social sharing buttons",
-          "default": false
+          "type": "paragraph",
+          "content": "Show social sharing buttons"
+        }
+      ]
+    },
+    {
+      "type": "pickup",
+      "name": "Local pickup",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Show customers where they can pick up the product. [Learn more](https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/local-methods/local-pickup#show-pickup-availability-to-your-customers)"
         }
       ]
     },
@@ -432,6 +497,23 @@
           "type": "checkbox",
           "id": "product_show_vendor",
           "label": "Show vendor",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Star rating",
+          "info": "Requires a product review app like [Shopify Product Reviews](https://apps.shopify.com/product-reviews) to create [standard metafields](https://shopify.dev/apps/metafields/definitions/standard-definitions) for star ratings."
+        },
+        {
+          "type": "checkbox",
+          "id": "show_rating",
+          "label": "Enable star rating",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_rating_count",
+          "label": "Show rating count",
           "default": false
         }
       ]
@@ -456,23 +538,6 @@
           "id": "custom_liquid",
           "label": "Custom Liquid",
           "info": "Add app snippets or other Liquid code to create advanced customizations."
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Featured product",
-      "category": "Collection",
-      "blocks": [
-        {
-          "type": "title"
-        },
-        {
-          "type": "form"
-        },
-        {
-          "type": "description"
         }
       ]
     }
