@@ -129,5 +129,8 @@ font-size: 17px !important;
 .product__price--off {    
   display: none; 
 }
+product__price--sale {
+ color: red;
+}
 /* end 
       
