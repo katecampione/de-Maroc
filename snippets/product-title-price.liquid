@@ -22,14 +22,11 @@
 
   <div class="product__price__wrap">
     <div class="product__price__main" data-price-wrapper>
-       {%- if current_variant.price < 12000 -%}
-      <p>Please contact our design team for pricing</p>
-      else
-      <div class="rating__wrapper__title">
-        {% render 'product-rating', product: product, show_rating_count: block.settings.show_rating_count %}
-      </div>
-    {%- endif -%}
       <span class="product__price">
+        
+        <span data-compare-price class="compare-at em {% unless current_variant.price < 12000 %}hide{% endunless %}">{<p>Please contact our design team for pricing</p></span>
+        <span class="product__price--off hide" data-compare-text style="display: none"></span>  
+        
         <span data-product-price {% if current_variant.compare_at_price > current_variant.price %} class="product__price--sale"{% endif %}>
           {{ current_variant.price | money }}
         </span>
