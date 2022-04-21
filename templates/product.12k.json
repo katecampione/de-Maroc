@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "12kproduct",
+      "type": "product",
       "blocks": {
         "title": {
           "type": "title",
@@ -20,6 +20,7 @@
         },
         "form": {
           "type": "form",
+          "disabled": true,
           "settings": {
             "variant_form": "button",
             "show_quantity": false,
