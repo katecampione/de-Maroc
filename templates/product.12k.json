@@ -1,12 +1,14 @@
 {
   "sections": {
     "main": {
-      "type": "12kproduct",
+      "type": "product",
       "blocks": {
         "title": {
           "type": "title",
           "settings": {
-            "product_show_vendor": false
+            "product_show_vendor": false,
+            "show_rating": false,
+            "show_rating_count": false
           }
         },
         "458e4d33-2dd2-488f-9e67-409dfe4857bc": {
@@ -60,11 +62,12 @@
         "5c2ea5ca-a4b0-453e-964d-fbede1f828ec"
       ],
       "settings": {
-        "bg": "palette--light bg--neutral",
         "image_width": "wide",
         "align": "left",
+        "product_breadcrumbs": true,
         "enable_video_looping": true,
-        "zoom_enable": true
+        "zoom_enable": true,
+        "bg": "palette--light bg--neutral"
       }
     },
     "1646442205198d71db": {
