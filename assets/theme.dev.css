@@ -21878,7 +21878,7 @@ display: block !important;
     flex-wrap: wrap;
     column-gap: 6px;
 } 
-.product-page span.product__price--off {    
+.product__price--off {    
   display: none; 
 }
 /* end 
