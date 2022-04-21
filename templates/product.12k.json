@@ -1,24 +1,312 @@
 {
   "sections": {
     "main": {
-      "type": "12kproduct",
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "product_show_vendor": false,
+            "show_rating": false,
+            "show_rating_count": false
+          }
+        },
+        "458e4d33-2dd2-488f-9e67-409dfe4857bc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p>Free Shipping!<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "variant_form": "button",
+            "show_quantity": false,
+            "show_remaining": false,
+            "enable_payment_button": true,
+            "subscriptions_enable_selectors": true,
+            "info_page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "read_more": false,
+            "style": "accordions",
+            "title_1": "",
+            "raw_content_1": "",
+            "title_2": "Rug Details",
+            "raw_content_2": "<p>{{ product.metafields.my_fields.rug_details | metafield_tag }}<\/p>",
+            "title_3": "The {{ product.title }} Story",
+            "raw_content_3": "<p>{{ product.metafields.my_fields.the_story | metafield_tag }}<\/p>",
+            "title_4": "Dimensions",
+            "raw_content_4": "<p>{{ product.metafields.my_fields.dimensions.value }}<\/p>",
+            "title_5": "",
+            "raw_content_5": ""
+          }
+        },
+        "5c2ea5ca-a4b0-453e-964d-fbede1f828ec": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div class=\"customClb\" style=\"height: 50px !important;\" onclick=\"cstmClbPopup()\" data-custom=\"customize\">\n<div class=\"customClbPreheader\">\n<span class=\"customfoxerPreheaderEl\">Free Design Consultation<\/span>\n<span onclick=\"minFoxerCustomCallback(this)\" class=\"customfoxerMover closed\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" version=\"1.1\" id=\"Capa_1\" x=\"0px\" y=\"0px\" width=\"512px\" height=\"512px\" viewBox=\"0 0 512 512\" style=\"opacity: 1;height: 45px;width: 25px;line-height: 45px\" xml:space=\"preserve\"><g><path d=\"M256,32c123.5,0,224,100.5,224,224S379.5,480,256,480S32,379.5,32,256S132.5,32,256,32 M256,0C114.625,0,0,114.625,0,256 s114.625,256,256,256s256-114.625,256-256S397.375,0,256,0L256,0z M398.719,341.594l-1.438-4.375 c-3.375-10.062-14.5-20.562-24.75-23.375L334.688,303.5c-10.25-2.781-24.875,0.969-32.405,8.5l-13.688,13.688 c-49.75-13.469-88.781-52.5-102.219-102.25l13.688-13.688c7.5-7.5,11.25-22.125,8.469-32.406L198.219,139.5 c-2.781-10.25-13.344-21.375-23.406-24.75l-4.313-1.438c-10.094-3.375-24.5,0.031-32,7.563l-20.5,20.5 c-3.656,3.625-6,14.031-6,14.063c-0.688,65.063,24.813,127.719,70.813,173.75c45.875,45.875,108.313,71.345,173.156,70.781 c0.344,0,11.063-2.281,14.719-5.938l20.5-20.5C398.688,366.062,402.062,351.656,398.719,341.594z\" fill=\"#FFFFFF\"><\/path><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g>\n<\/svg>\n<\/span>\n<\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "458e4d33-2dd2-488f-9e67-409dfe4857bc",
+        "form",
+        "description",
+        "5c2ea5ca-a4b0-453e-964d-fbede1f828ec"
+      ],
       "settings": {
+        "image_width": "wide",
+        "align": "left",
+        "product_breadcrumbs": true,
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "bg": "palette--light bg--neutral"
       }
     },
-    "second": {
+    "1646442205198d71db": {
+      "type": "section-icons",
+      "blocks": {
+        "1646442205a48382ab-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-rating",
+            "icon_alt": "shopify:\/\/shop_images\/hand_holding_heart.png",
+            "icon_color": "#000000",
+            "title": "Hand Crafted",
+            "text": "<p><em>All our rugs are exquisitely hand-crafted by the women of Morocco, showcasing techniques passed down through 7,000+ years of Berber craftsmanship.<\/em><\/p>"
+          }
+        },
+        "1646442205a48382ab-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-rating",
+            "icon_alt": "shopify:\/\/shop_images\/icons8-jewel-100.png",
+            "icon_color": "#000000",
+            "title": "Exclusive",
+            "text": "<p><em>Exclusive one-of-a-kind vintage pieces, each with its own unique story to tell, steeped in culture, tradition, and story.<\/em><\/p>"
+          }
+        },
+        "1646442205a48382ab-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify:\/\/shop_images\/leaf.png",
+            "icon_color": "#000000",
+            "title": "NATURAL TEXTILES",
+            "text": "<p><em>Each rug is made of 100% wool and goat hair and dyed using locally sourced natural pigments.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1646442205a48382ab-0",
+        "1646442205a48382ab-1",
+        "1646442205a48382ab-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icon_size": "icon--medium",
+        "icon_alignment": "icon--top",
+        "align_text": "text-center"
+      }
+    },
+    "image-with-text": {
+      "type": "section-double",
+      "disabled": true,
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "Image with text",
+            "title": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1646252912eed79d41": {
+      "type": "section-double",
+      "blocks": {
+        "1646252912fdf3649e-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "- Architectural Digest",
+            "text": "<p>“The thing that makes these rugs so exceptional is the details. The quirks and imperfections that reveal where they came from, where they have been. Authenticity lies in these nuances. It gives them soul. It reminds you that this rug lived a rich, colorful life before it was here. You can’t replicate that in a factory.” - Emmy Ellison, de Maroc founder<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--link",
+            "text_color": "text--neutral",
+            "bg_color": "#ffffff"
+          }
+        },
+        "1646252912fdf3649e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0Y6A0090.jpg",
+            "bg_position": "center-bottom",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "1646252912fdf3649e-0",
+        "1646252912fdf3649e-1"
+      ],
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1646252908c653df61": {
       "type": "section-logos",
+      "blocks": {
+        "1646252908f108cac3-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.png",
+            "link": "https:\/\/www.architecturaldigest.com\/story\/emmy-ellison-los-angeles-home"
+          }
+        },
+        "1646252908f108cac3-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
+            "link": ""
+          }
+        },
+        "1646252908f108cac3-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.png",
+            "link": ""
+          }
+        },
+        "1646252908f108cac3-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.png",
+            "link": ""
+          }
+        },
+        "262abd69-f467-4357-ad57-736bc876f74a": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fred-segal.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1646252908f108cac3-0",
+        "1646252908f108cac3-1",
+        "1646252908f108cac3-2",
+        "1646252908f108cac3-3",
+        "262abd69-f467-4357-ad57-736bc876f74a"
+      ],
       "settings": {
+        "title": "Featured In",
+        "bg": "palette--dark bg--invert"
       }
     },
-    "last": {
-      "type": "section-page",
+    "reviews": {
+      "type": "reviews",
+      "disabled": true,
       "settings": {
+        "product_reviews_enable": false,
+        "bg": "palette--light bg--accent"
+      }
+    },
+    "related": {
+      "type": "related",
+      "settings": {
+        "heading": "You might also like",
+        "bg": "palette--light bg--neutral",
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": true,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed"
+      }
+    },
+    "1646435653da3042a7": {
+      "type": "section-html",
+      "disabled": true,
+      "settings": {
+        "html": "<div class=\"customClb\" style=\"height: 50px !important;\" onclick=\"cstmClbPopup()\" data-custom=\"customize\">\n<div class=\"customClbPreheader\">\n<span class=\"customfoxerPreheaderEl\">Complimentary Design Consultation<\/span>\n<span onclick=\"minFoxerCustomCallback(this)\" class=\"customfoxerMover closed\">\n<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" version=\"1.1\" id=\"Capa_1\" x=\"0px\" y=\"0px\" width=\"512px\" height=\"512px\" viewBox=\"0 0 512 512\" style=\"opacity: 1;height: 45px;width: 25px;line-height: 45px\" xml:space=\"preserve\"><g><path d=\"M256,32c123.5,0,224,100.5,224,224S379.5,480,256,480S32,379.5,32,256S132.5,32,256,32 M256,0C114.625,0,0,114.625,0,256 s114.625,256,256,256s256-114.625,256-256S397.375,0,256,0L256,0z M398.719,341.594l-1.438-4.375 c-3.375-10.062-14.5-20.562-24.75-23.375L334.688,303.5c-10.25-2.781-24.875,0.969-32.405,8.5l-13.688,13.688 c-49.75-13.469-88.781-52.5-102.219-102.25l13.688-13.688c7.5-7.5,11.25-22.125,8.469-32.406L198.219,139.5 c-2.781-10.25-13.344-21.375-23.406-24.75l-4.313-1.438c-10.094-3.375-24.5,0.031-32,7.563l-20.5,20.5 c-3.656,3.625-6,14.031-6,14.063c-0.688,65.063,24.813,127.719,70.813,173.75c45.875,45.875,108.313,71.345,173.156,70.781 c0.344,0,11.063-2.281,14.719-5.938l20.5-20.5C398.688,366.062,402.062,351.656,398.719,341.594z\" fill=\"#FFFFFF\"><\/path><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g><g><\/g>\n<\/svg>\n<\/span>\n<\/div>\n<\/div>",
+        "full_width": true
       }
     }
   },
   "order": [
     "main",
-    "second",
-    "last"
+    "1646442205198d71db",
+    "image-with-text",
+    "1646252912eed79d41",
+    "1646252908c653df61",
+    "reviews",
+    "related",
+    "1646435653da3042a7"
   ]
 }
