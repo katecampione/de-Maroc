@@ -26,6 +26,8 @@
         <span data-product-price {% if current_variant.compare_at_price > current_variant.price %} class="product__price--sale"{% endif %}>
           {{ current_variant.price | money }}
         </span>
+                <span data-compare-price class="compare-at em {% unless current_variant.compare_at_price > current_variant.price %}hide{% endunless %}">{{ current_variant.compare_at_price | money }}</span>
+        <span class="product__price--off hide" data-compare-text style="display: none"></span>  
       </span>
 
       <span data-price-off class="product__price--off hide">
