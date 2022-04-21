@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "product",
+      "type": "12kproduct",
       "blocks": {
         "title": {
           "type": "title",
