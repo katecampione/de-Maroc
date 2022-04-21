@@ -24,7 +24,7 @@
     <div class="product__price__main" data-price-wrapper>
        {%- if current_variant.price < 12000 -%}
       <p>Please contact our design team for pricing</p>
-      
+      else
       <div class="rating__wrapper__title">
         {% render 'product-rating', product: product, show_rating_count: block.settings.show_rating_count %}
       </div>
