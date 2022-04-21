@@ -21877,6 +21877,10 @@ display: block !important;
     align-items: center;
     flex-wrap: wrap;
     column-gap: 6px;
+} 
+.product-page span.product__price--off {    
+  display: none; 
 }
-/* end */
+/* end 
+      
   
