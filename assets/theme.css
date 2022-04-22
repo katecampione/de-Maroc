@@ -110,6 +110,11 @@ font-size: 17px !important;
 .on-sale {
   color: red !important;
 }
+      #shopify-section-template--15494548717759__1648485198bac12ed0 > section > div {
+        max-width: 750px;
+      }
+      
+      
 /* Change product page sale price color */
 .product__price--sale{
     color: var(--primary);
@@ -133,4 +138,3 @@ font-size: 17px !important;
  color: red;
 }
 /* end 
-      
