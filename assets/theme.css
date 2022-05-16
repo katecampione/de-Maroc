@@ -143,5 +143,8 @@ font-size: 17px !important;
   font-style: italic;
   	
 }
+      #shopify-section-popups > div > div > div > p.popup__title {
+      	color: white !important;
+      }
       
 /* end 
