@@ -145,6 +145,10 @@ font-size: 17px !important;
 }
       #shopify-section-popups > div > div > div > p.popup__title {
       	color: white !important;
+        
+      }
+      #shopify-section-popups > div > div > div > p:nth-child(2) {
+      color: white;
       }
       
 /* end 
