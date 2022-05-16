@@ -137,9 +137,10 @@ font-size: 17px !important;
  color: red;
 }
 #shopify-section-announcement > div > div > div > div > div > div > div.announcement__scale > div > p {
-	color: white 1important;
+	
  	text-transform: capitalize;
   font-family: 'Lora';
+  font-style: italic;
   	
 }
       
