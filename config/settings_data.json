@@ -203,34 +203,19 @@
       "popups": {
         "type": "popups",
         "blocks": {
-          "cookies": {
-            "type": "cookie",
-            "disabled": true,
+          "88b26cdd-0238-4006-869c-acca23ee6a92": {
+            "type": "text",
             "settings": {
-              "show_cookies_popup": true,
-              "text_title": "Are Cookies OK?",
-              "text_body": "<p>We use cookies to improve your browsing experience<\/p>",
-              "text_accept": "Accept",
-              "text_learn": "Learn more",
-              "learn_url": "shopify:\/\/policies\/privacy-policy",
-              "text_color": "text--neutral",
-              "button_color": "btn--neutral",
-              "button_style": "btn--soft uppercase",
-              "bg": "palette--light bg--neutral",
-              "position": "popup--left"
-            }
-          },
-          "newsletter_signup": {
-            "type": "newsletter",
-            "disabled": true,
-            "settings": {
-              "title": "de Maroc Newsletter",
-              "text": "<p>Subscribe to be the first to know about new collection drops, local events, and more.<\/p>",
-              "success": "Success!",
+              "title": "Spring Special - $75 OFF",
+              "text": "<p>Use code: <strong>demaroc<br\/><br\/><\/strong>*Offer expires May 31<\/p>",
               "text_color": "text--white",
               "bg": "palette--dark bg--invert",
-              "position": "popup--right",
-              "trigger": "bottom",
+              "link_text": "",
+              "link": "",
+              "button_color": "btn--neutral",
+              "button_style": "btn--soft uppercase",
+              "position": "popup--left",
+              "trigger": "always",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -241,8 +226,7 @@
           }
         },
         "block_order": [
-          "cookies",
-          "newsletter_signup"
+          "88b26cdd-0238-4006-869c-acca23ee6a92"
         ],
         "settings": {
         }
