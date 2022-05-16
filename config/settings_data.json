@@ -46,22 +46,8 @@
         "blocks": {
           "announce_text": {
             "type": "text",
-            "disabled": true,
             "settings": {
-              "text": "<p><strong>Make an announcement<\/strong> | More info<\/p>",
-              "target_url_enabled": false,
-              "target_url": "",
-              "target_referrer_enabled": false,
-              "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
-            }
-          },
-          "announce_shipping": {
-            "type": "message",
-            "disabled": true,
-            "settings": {
-              "message": "Spend ||amount|| more for free shipping",
+              "text": "<p>Spring Special - Until May 31<\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -72,8 +58,7 @@
           }
         },
         "block_order": [
-          "announce_text",
-          "announce_shipping"
+          "announce_text"
         ],
         "settings": {
           "text_size": 3,
