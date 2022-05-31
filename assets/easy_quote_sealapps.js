@@ -323,7 +323,7 @@
 
     //如果获取form的方式获取不到按钮的话，用以前的方法再试一次
     if (!soldOutBtn && !exactForm && !shopify_payment_button) {
-        oldIsExistParentAndUpdateElement();
+      exactForm = document.querySelector('.accordion__body');
     }
 
     function oldIsExistParentAndUpdateElement() {
