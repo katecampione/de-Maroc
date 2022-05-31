@@ -150,7 +150,9 @@
                     {{ item.title | link_to: item.url }}
                   </p>
                 
-                  {% if item.object_type == 'product' %}
+       
+                    <p class="product__inline__price">
+                                 {% if item.object_type == 'product' %}
                      {% if product.tags contains 'Hide' %}
      <div class="product__inline__price">
                                <a href="https://demarochome.com/pages/contact" target="_blank">
@@ -158,7 +160,6 @@
         </a>
       </div>
 {% else %}
-                    <p class="product__inline__price">
                       {%- assign product = item -%}
                       {%- assign on_sale = false -%}
                       {%- assign sold_out = true -%}
