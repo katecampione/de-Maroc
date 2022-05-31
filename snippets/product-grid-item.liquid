@@ -168,10 +168,11 @@
       </div>
       {% if product.tags contains 'Hide' %}
       <div class="ProductItem__PriceList  Heading">
-        <button type="button" class="easy-quote-button" style="text-align:center;margin-top:0; width: ; height: ; border-radius:  ; font-size: ;margin: ; font-weight: ; border:1px solid transparent;">
+        <div id="product-restore-quote" style="margin-top: 10px; display: flex;">
+                                <button type="button" class="easy-quote-button" style="text-align:center;margin-top:0; width: ; height: ; border-radius:  ; font-size: ;margin: ; font-weight: ; border:1px solid transparent;">
                                     Please contact our design team for pricing
-                                </button>
-  </div>
+                                </button> 
+        </div>
 {% else %}
       <div class="product__grid__price">
         
