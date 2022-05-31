@@ -166,7 +166,13 @@
           </div>
         {%- endif -%}
       </div>
-      {% unless product.tags contains 'Hide' %}
+      {% if product.tags contains 'Hide' %}
+      <div class="ProductItem__PriceList  Heading">
+        <button type="button" class="easy-quote-button" style="text-align:center;margin-top:0; width: ; height: ; border-radius:  ; font-size: ;margin: ; font-weight: ; border:1px solid transparent;">
+                                    Please contact our design team for pricing
+                                </button>
+  </div>
+{% else %}
       <div class="product__grid__price">
         
 
@@ -199,7 +205,7 @@
         {{ swatches }}
         
       </div>
-      {% endunless %}
+      {% endif %}
     </a>
     <p class="product__grid__price">{{ product.metafields.my_fields.dimensions }}</p>
   </div>
