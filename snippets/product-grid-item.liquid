@@ -166,8 +166,9 @@
           </div>
         {%- endif -%}
       </div>
+      {% unless product.tags contains 'Hide' %}
       <div class="product__grid__price">
-        {% unless product.tags contains 'Hide' %}
+        
 <style>
   .product__grid__price {
   display: none;
@@ -201,8 +202,9 @@
           <br /><em>{{ 'products.product.sold_out' | t }}</em>
         {% endif %}
         {{ swatches }}
-        {% endunless %}
+        
       </div>
+      {% endunless %}
     </a>
     <p class="product__grid__price">{{ product.metafields.my_fields.dimensions }}</p>
   </div>
