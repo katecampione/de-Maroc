@@ -152,7 +152,7 @@
                 
                   {% if item.object_type == 'product' %}
                      {% if product.tags contains 'Hide' %}
-     <div class="product__grid__price">
+     <div class="product__inline__price">
                                <a href="https://demarochome.com/pages/contact" target="_blank">
                                     Please contact our design team for pricing
         </a>
@@ -171,7 +171,7 @@
                       {%- if product.available -%}
                         {%- assign sold_out = false -%}
                       {%- endif -%}
-
+{% else %}
                       <span class="price{% if on_sale %} on-sale{% endif %}">
                         {% if product.price_varies %}{{ 'products.general.from' | t }} {% endif %}
                         {{ product.price | money }}
@@ -203,8 +203,7 @@
                       {% if sold_out %}
                         <br /><em>{{ 'products.product.sold_out' | t }}</em>
                       {% endif %}
-                    </p>     
-                    {% else %}
+                    </p>               
                     {%- if settings.product_grid_show_rating and product.metafields.reviews.rating.value != blank -%}
                       <div class="rating__wrapper__search">
                         {% render 'product-rating', product: product, show_rating_count: settings.product_grid_show_rating_count %}
