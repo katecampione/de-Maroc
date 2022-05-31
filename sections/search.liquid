@@ -157,7 +157,7 @@
                                     Please contact our design team for pricing
         </a>
       </div>
-{% else %}
+
                     <p class="product__inline__price">
                       {%- assign product = item -%}
                       {%- assign on_sale = false -%}
@@ -171,7 +171,7 @@
                       {%- if product.available -%}
                         {%- assign sold_out = false -%}
                       {%- endif -%}
-
+{% else %}
                       <span class="price{% if on_sale %} on-sale{% endif %}">
                         {% if product.price_varies %}{{ 'products.general.from' | t }} {% endif %}
                         {{ product.price | money }}
@@ -210,7 +210,7 @@
                       </div>
                     {%- endif -%}
                   {% endif %}
-                    {% endif %}
+                  {% endif %}
                   </div>
                 </div>
               {% unless forloop.last %}<hr>{% endunless %}
