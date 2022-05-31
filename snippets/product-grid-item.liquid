@@ -199,3 +199,10 @@
     <p class="product__grid__price">{{ product.metafields.my_fields.dimensions }}</p>
   </div>
 </div>
+{% if product.tags contains "Hide" %}
+<style>
+  .Price {
+  display: none;
+}
+</style>
+{% endif %}
