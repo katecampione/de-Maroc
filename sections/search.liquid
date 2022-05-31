@@ -151,6 +151,13 @@
                   </p>
                 
                   {% if item.object_type == 'product' %}
+                     {% if product.tags contains 'Hide' %}
+     <div class="product__grid__price">
+                               <a href="https://demarochome.com/pages/contact" target="_blank">
+                                    Please contact our design team for pricing
+        </a>
+      </div>
+{% else %}
                     <p class="product__inline__price">
                       {%- assign product = item -%}
                       {%- assign on_sale = false -%}
@@ -203,6 +210,7 @@
                       </div>
                     {%- endif -%}
                   {% endif %}
+                    {% endif %}
                   </div>
                 </div>
               {% unless forloop.last %}<hr>{% endunless %}
