@@ -3,7 +3,7 @@
                                     {%- else -%}
                                       <script> var fc_metafield_callback = "{\"color\":\"#2681d5\",\"position\":\"right-bottom\",\"blocks\":{\"companyfield\":\"false\",\"date\":\"true\",\"phonefield\":\"true\",\"datetime\":\"true\",\"location\":\"false\",\"autoloc\":\"true\",\"name\":\"false\",\"emailfield\":\"false\",\"notefield\":\"false\"}}"; </script>
                                     {%- endif -%}
-                                    {% if localization.available_languages.size > 1 and {{ 'templates.contact.form.title' | t }} and {{ 'templates.contact.form.send' | t }} and {{ 'templates.contact.form.name' | t }} and {{ 'templates.contact.form.error_heading' | t }} and {{ 'templates.contact.form.phone' | t }} and {{ 'customer.orders.date' | t }} and {{ 'templates.contact.form.name' | t }} and {{ 'blogs.article.email' | t }} and {{ 'templates.contact.form.comment' | t }} and {{ 'blogs.article.email' | t }} and {{ 'templates.contact.form.name' | t }} %}
+                                    {% if localization.available_languages.size > 1 and nil and nil and nil and nil and nil and nil and nil and nil and nil and nil and nil %}
                                         <script>
                                           if (window.location.pathname.split("/")[1].length == 2) {
                                               fc_metafield_callback = JSON.parse(fc_metafield_callback);
@@ -22,4 +22,20 @@
                                           }
                                         </script>
                                     {%- endif -%}
-                                    
+                                    {%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% if localization.available_languages.size > 1 and {{ 'templates.contact.form.title'
+    | t }} and {{ 'templates.contact.form.send' | t }} and {{ 'templates.contact.form.name'
+    | t }} and {{ 'templates.contact.form.error_heading' | t }} and {{ 'templates.contact.form.phone'
+    | t }} and {{ 'customer.orders.date' | t }} and {{ 'templates.contact.form.name'
+    | t }} and {{ 'blogs.article.email' | t }} and {{ 'templates.contact.form.comment'
+    | t }} and {{ 'blogs.article.email' | t }} and {{ 'templates.contact.form.name'
+    | t }} %}"
+  to: "{% if localization.available_languages.size > 1 and nil and nil and nil and
+    nil and nil and nil and nil and nil and nil and nil and nil %}"
+  position: 642..780
+{%- endcomment -%}
